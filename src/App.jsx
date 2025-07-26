@@ -26,8 +26,7 @@ const FollowPointer = () => {
     }
   }, [enabled])
 
-  // [] -> solo se ejecuta una vez al montar el componente
-  // [enabled] -> se ejecuta cuando enabled cambia y cuando se monta el componente
+  
   // undefined -> se ejecuta cada vez que renderiza el componente
 
   useEffect(() => {
